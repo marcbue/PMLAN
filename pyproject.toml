@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pmlan"
+version = "0.1.0"
+description = "Project to work through the Probabilistic Machine Learning An Introduction book from Kevin P. Murphy (2022)"
+authors = ["marc_buettner"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+pytest = "^7.4.3"
+cookiecutter = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
